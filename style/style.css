@@ -2,3 +2,37 @@ body {
     background-color:rgb(48, 48, 48);
     color:darkgray;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 
+    'header-image header'
+    'main main'
+    'skills skills'
+  }
+.header-image-item {
+    grid-area: header-image;
+    border: 2px solid red;
+    background-image: url('../images/Sandwich girls sandwich.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.header-item {
+    grid-area: header;
+    border: 2px solid red;
+}
+
+.main-item {
+    grid-area: main;
+    border: 2px solid red;
+}
+  
+.skills-item {
+    grid-area: skills;
+    border: 2px solid red;
+}
