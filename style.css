@@ -1,69 +1,82 @@
 /* adjustments to w3 schools stylesheet */
+body {
+    max-width: 1500px;
+    margin: auto;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
 header {
     margin: 0;
     padding: 0 1em;
-  }
-  footer {
+}
+footer {
     margin: 0;
-  }
-  p {
-    text-align: justify;
-  }
-  h1 {
     width: 100%;
+}
+p {
+    text-align: justify;
+}
+h1 {
+    width: 100%;
+}
+@media only screen and (max-width: 1500px) {
+    body {
+      margin: 0;
+      border-width: 0;
+    }
   }
   
-  .footer-image {
+.footer-image {
     height: 50px;
     width: 50px;
-  }
-  .w3-bar-item {
+}
+.w3-bar-item {
     padding: 16px!important;
-  }
-  .w3-button:hover {
+}
+.w3-button:hover {
     opacity: 1;
     transition: 1s;
-  }
-  .w3-button:hover {
+}
+.w3-button:hover {
     color: #fff!important;
     background-color: #000!important;
     opacity: 1;
-  }
-  .w3-image {
+}
+.w3-image {
     background-image: linear-gradient(transparent, white);
-  }
-  .w3-display-middle {
+}
+.w3-display-middle {
     width: 100%;
-  }
+}
   
-  /* css for work cloud */
-  .center {
+/* css for work cloud */
+.center {
     margin: 0 25%;
     width: 50%;
-  }
-  .cloud {
+}
+.cloud {
     display: inline;
     list-style-type: none;
     width: 400px;
-  }
-  .cloud li {
+}
+.cloud li {
     list-style: none;
     display: inline;
     color: grey;
-  }
-  .cloud li:nth-of-type(n + 1) {
+}
+.cloud li:nth-of-type(n + 1) {
     font-size: 0.75em;
     color: grey;
-  }
-  .cloud li:nth-of-type(2n + 1) {
+}
+.cloud li:nth-of-type(2n + 1) {
     font-size: 1.25em;
     color: grey;
-  }
-  .cloud li:nth-of-type(3n + 3) {
+}
+.cloud li:nth-of-type(3n + 3) {
     font-size: 1.5em;
     color: #2196F3;
-  }
-  .cloud li:nth-of-type(4n - 3) {
+}
+.cloud li:nth-of-type(4n - 3) {
     font-size: 1em;
     color: grey;
-  }
+}
