@@ -1,43 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang='eng'>
+<meta charset='UTF-8' name='viewport' content='width=device-width,initial-scale=1'>
+<link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+<link rel='stylesheet' href='./style.css'>
+<title>D Brown - Cloud Engineer</title>
 
-    <head>
-        <title>Dave Brown</title>
-        <link rel="stylesheet" type="text/css" href="./style/style.css"/>
-    </head>
+<body>
 
-    <body class="grid-container">
-        <div class="header-image-item">
-            <img src="./images/Sandwich girls sandwich.jpg" width="150px" height="150px">
-        </div>
-        <header class="header-item">
-            <h1>M D M Brown</h1>
-            <h2>Technical Intern at IN4.0 Group</h2>
-           
-        </header>
+  <!-- Navigation -->
+  <header class='w3-top w3-bar w3-blue w3-wide w3-card'>
+    <a href='#home' class='w3-bar-item w3-button'><b>D Brown</b> - Cloud Engineer</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class='w3-right w3-hide-small'>
+      <a href='#about' class='w3-bar-item w3-button'>About</a>
+      <a href='#projects' class='w3-bar-item w3-button'>Projects</a>
+      <a href='#contact' class='w3-bar-item w3-button'>Contact</a>
+    </div>
+  </header>
 
-        <div class="main-item">
-            I am a hardworking, conscientious individual, with a proven ability for working as part of a team 
-            and on my own initiative.
-            I'm always Seeking to meet and exceed client goals. I'm excited to integrate my journey in Cloud services
-            with my enthusiasm for innovation and technology. 
-        </div>
+  <!-- Home -->
+  <div id='home' class='w3-content' style='max-width:1564px'>
+    <div class='w3-display-container w3-content' style='max-width:1500px;'>
+      <img class='w3-image' src='./images/blue-sky2.jpg' alt='blue sky' width='100%'>
+      <div class='w3-display-middle w3-margin-top w3-center'>
+        <h1 class='w3-xxlarge w3-text-white w3-wide'>
+          <span class='w3-padding w3-black'><b>D Brown</b></span>
+          <br>
+          <span class='w3-hide-small w3-text-black'>Cloud Engineer</span>
+        </h1>
+      </div>
+    </div>
+  </div>
 
-        <div class="skills-item">
-            <ul>
-                <li>AWS Cloud practicioner</li><br>
-                <li>HTML</li><br>
-                <li>CSS</li><br>
-              </ul>
-            
-        </div>
+  <!-- About -->
+  <div id='about' class='w3-container w3-padding-32'>
+    <h2 class='w3-border-bottom w3-border-light-grey w3-padding-16'>About Me</h2>
+    <p>
+      I'm passionate about technology solutions across a range of industries, I see the need for innovative changes in efficiency, working practices and problem solving for business infrastructure. Presently I am involved in the Manchester digital revolution. Currently with the IN4.0 group as a tech intern, gaining my qualification as an AWS cloud practitioner and skills in coding with Python, HTML5, CSS in tandem with the AWS re/Start programme. I'm also engaged in continued professional development with 'Sales Geek' and 'Vibe' training organisations.
+    </p>
+  </div>
+  
+  <div class='w3-row-padding center'>
+    <!-- Skills -->
+    <div class='l3 m6 w3-center'>
+      <ul class="cloud">
+        <li>Linux CLI</li>
+        <li>HTML</li>
+        <li>Cloud Computing</li>
+        <li>Python</li>
+        <li>Research Methods</li>
+        <li>AWS</li>
+        <li>Bash Scripting</li>
+        <li>CSS</li>
+        <li>Leadership</li>
+        <li>Presentation Skills</li>
+        <li>Customer Service</li>
+        <li>Git</li>
+      </ul>
+    </div>
+  </div>
 
-        <footer>
-            <p><a href="https://www.linkedin.com/in/david-brown-b32679ba">LinkedIn</a></p>
-            <p><a href="https://github.com/Cloud-Monkey">GitHub</a></p>
+  <!-- Projects -->
+  <div id='projects' class='w3-container w3-padding-32'>
+    <h2 class='w3-border-bottom w3-border-light-grey w3-padding-16'>Projects</h2>
+  </div>
+  <div class='w3-row-padding'>
+    <!-- Project 1 -->
+    <div class='w3-col l3 m6 w3-margin-bottom'>
+      <div class='w3-display-container'>
+        <div class='w3-display-topleft w3-black w3-padding'>Capstone GUI</div>
+        <a href='https://github.com/Catering-Company/Capstone-project-2'>
+          <img src='./images/python-image.jpeg' alt='House' style='width:100%'>
+        </a>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class='w3-col l3 m6 w3-margin-bottom'>
+      <div class='w3-display-container'>
+        <div class='w3-display-topleft w3-black w3-padding'>Portfolio</div>
+        <a href='https://github.com/Cloud-Monkey/PortfolioDraft'>
+          <img src='./images/portfolio-screenshot.png' alt='Python Code' style='width:100%'>
+        </a>
+      </div>
+    </div>
 
-        </footer>
+    <!-- Project 3 -->
+    <div class='w3-col l3 m6 w3-margin-bottom'>
+      <div class='w3-display-container'>
+        <div class='w3-display-topleft w3-black w3-padding'>Capstone Limited</div>
+        <a href='https://github.com/Catering-Company/capstone'>
+          <img src='./images/capstone-screenshot.png' alt='House' style='width:100%'>
+        </a>
+      </div>
+    </div>
+    <!-- Project 4 -->
+    <div class='w3-col l3 m6 w3-margin-bottom'>
+      <div class='w3-display-container'>
+        <div class='w3-display-topleft w3-black w3-padding'>Python Exercises</div>
+        <a href='https://github.com/Cloud-Monkey/Python-exercises'>
+          <img src='./images/python-image.jpeg' alt='Python Code' style='width:100%'>
+        </a>
+      </div>
+    </div>
+  </div>
 
-    </body>
+  <footer id='contact' class='w3-center w3-blue'>
+    <!-- Float links to the right -->
+    <a href='https://www.linkedin.com/in/david-brown-b32679ba/' class='w3-button'><img src='./images/linkedin.png' alt='LinkedIn' class='footer-image'></a>
+    <a href='https://github.com/Cloud-Monkey' class='w3-button'><img src='./images/github.png' alt='GitHub' class='footer-image'></a>
+    </div>
+  </footer>
+
+</body>
 
 </html>
